@@ -19,6 +19,10 @@ export const config = [
     },
     rules: {
       "turbo/no-undeclared-env-vars": "warn",
+      "react/jsx-filename-extension": [
+        "error",
+        { extensions: [".tsx", ".ts"] },
+      ],
     },
   },
   {

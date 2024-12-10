@@ -1,4 +1,4 @@
-import { Button } from "@repo/ui/button";
+import { Button } from "@repo/ui/components/button.jsx";
 import styles from "./page.module.css";
 
 export default function Home() {
