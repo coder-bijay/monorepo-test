@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "react-hooks/exhaustive-deps": 0,
+    "no-console": ["warn", { "allow": ["error"] }],
+    "@typescript-eslint/no-unused-vars": "error",
+    "@typescript-eslint/no-explicit-any": "error",
+    "react/jsx-filename-extension": [
+      "error",
+      { "extensions": [".tsx", ".ts"] }
+    ],
+    "@typescript-eslint/naming-convention": [
+      "error",
+
+      {
+        "selector": ["function", "variable"],
+        "format": ["StrictPascalCase", "strictCamelCase", "UPPER_CASE"]
+      }
+    ]
+  }
+}
